@@ -1,0 +1,28 @@
+section{
+    width: 1000px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+article{
+    width: 200px ;
+    height: 300px;
+    border: 1px solid black;
+
+}
+.a{
+    background-color: blue;
+    
+}
+.b{
+    background-color:chartreuse;
+}
+.c{
+    background-color:coral;
+    flex-grow: 1;
+}
+.d{
+    background-color:gold;
+}
+
